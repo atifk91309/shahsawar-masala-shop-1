@@ -1,0 +1,69 @@
+{
+  "id": "/",
+  "name": "Shahsawar Masala Shop - شہسوار مصالحہ شاپ",
+  "short_name": "Masala Shop",
+  "description": "Shahsawar Masala Shop Ismaila - Kajoor, Kishmish, Mong Pali, Pansar, Haldi, Mirch, Masala, Khata, Udhar, profit tracking - Offline PWA grams system",
+  "start_url": "/login?utm_source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "orientation": "any",
+  "background_color": "#fff7ed",
+  "theme_color": "#b45309",
+  "categories": ["business", "shopping", "food", "productivity"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/icon-circle-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-circle-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-circle-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Sale",
+      "url": "/dashboard/sales",
+      "description": "Quick sale - Kajoor, Kishmish, Pansar, Masala by grams",
+      "icons": [{ "src": "/icon-circle-180.png", "sizes": "180x180" }]
+    },
+    {
+      "name": "Masala Stock",
+      "url": "/dashboard/products",
+      "description": "View stock - Kajoor, Kishmish, Mong Pali, Haldi, Mirch, Masala",
+      "icons": [{ "src": "/icon-circle-180.png", "sizes": "180x180" }]
+    },
+    {
+      "name": "Sales History",
+      "url": "/dashboard/sales/history",
+      "icons": [{ "src": "/icon-circle-180.png", "sizes": "180x180" }]
+    },
+    {
+      "name": "Khata / Udhar",
+      "url": "/dashboard/customers",
+      "icons": [{ "src": "/icon-circle-180.png", "sizes": "180x180" }]
+    },
+    {
+      "name": "Top Masala",
+      "url": "/dashboard/sales/top",
+      "description": "Top selling masala by grams",
+      "icons": [{ "src": "/icon-circle-180.png", "sizes": "180x180" }]
+    }
+  ],
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "handle_links": "preferred"
+}
