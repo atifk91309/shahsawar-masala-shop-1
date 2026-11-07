@@ -141,7 +141,7 @@ export default function MasalaDashboard(){
   return(
     <div className="p-3 sm:p-6 max-w-6xl mx-auto min-h-screen bg-gray-50">
       {isOffline && <div className="mb-3 bg-amber-50 border text-amber-800 text-[12px] p-2.5 rounded-xl text-center">📶 Offline • {pendingCount} pending — will auto-sync</div>}
-      {reports && reports.khata.totalUdhar>0 && <div className="mb-3 bg-red-50 border border-red-200 text-red-800 text-[12px] p-2.5 rounded-xl flex justify-between"><span>📒 Total Udhar: Rs.{fmt(reports.khata.totalUdhar)} • {reports.khata.customers} customers</span><Link href="/khata" className="bg-red-600 text-white px-3 py-1 rounded-lg text-[11px]">Khata</Link></div>}
+      {reports && reports.khata.totalUdhar>0 && <div className="mb-3 bg-red-50 border border-red-200 text-red-800 text-[12px] p-2.5 rounded-xl flex justify-between"><span>📒 Total Udhar: Rs.{fmt(reports.khata.totalUdhar)} • {reports.khata.customers} customers</span><Link href="/dashboard/customers" className="bg-red-600 text-white px-3 py-1 rounded-lg text-[11px]">Khata</Link></div>}
 
       <h1 className="text-[20px] font-bold">🌶️ Shahsawar Masala Dashboard</h1>
       <p className="text-[11px] text-gray-500 mb-4">{new Date().toLocaleDateString()} • {isOffline?"Offline Mode":"Online"} • Year {new Date().getFullYear()} • Shewa</p>
@@ -163,7 +163,7 @@ export default function MasalaDashboard(){
       <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 mb-4">
         <Link href="/dashboard/sales" className="bg-black text-white p-4 rounded-xl text-center font-bold text-[13px]">🛒 POS Sale</Link>
         <Link href="/dashboard/products" className="bg-white border p-4 rounded-xl text-center font-bold text-[13px]">📦 Masala Stock</Link>
-        <Link href="/khata" className="bg-white border p-4 rounded-xl text-center font-bold text-[13px]">📒 Khata</Link>
+        <Link href="/dashboard/customers" className="bg-white border p-4 rounded-xl text-center font-bold text-[13px]">📒 Khata</Link>
         <Link href="/dashboard/sales/history" className="bg-white border p-4 rounded-xl text-center font-bold text-[13px]">📜 History</Link>
         <Link href="/dashboard/sales/top" className="bg-white border p-4 rounded-xl text-center font-bold text-[13px]">🔥 Top Masala</Link>
       </div>
