@@ -92,7 +92,7 @@ self.addEventListener('fetch', (e) => {
                  (await cache.match('/login')) ||
                  (await cache.match('/')) ||
                  new Response(
-                   `<html><body style="font-family:system-ui;text-align:center;padding:40px;background:#fff7ed"><img src="/logo.png" style="width:80px;height:80px;border-radius:50%;border:2px solid #b45309"/><h1>🌶️ Shahsawar Masala Shop</h1><p>شہسوار مصالحہ شاپ - Offline • Ismaila</p><p>Kajoor • Kishmish • Pansar • Mong Pali • Haldi • Mirch billing by grams available offline</p></body></html>`,
+                   `<html><body style="font-family:system-ui;text-align:center;padding:40px;background:#fff7ed"><img src="/logo.png" style="width:80px;height:80px;border-radius:50%;border:2px solid #b45309"/><h1>🌶️ Shahsawar Masala Shop</h1><p>شہسوار مصالحہ شاپ - Offline • Shewa</p><p>Kajoor • Kishmish • Pansar • Mong Pali • Haldi • Mirch billing by grams available offline</p></body></html>`,
                    { headers: { 'Content-Type': 'text/html' } }
                  );
         })

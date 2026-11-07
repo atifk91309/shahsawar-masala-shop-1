@@ -2,7 +2,7 @@
   "id": "/",
   "name": "Shahsawar Masala Shop - شہسوار مصالحہ شاپ",
   "short_name": "Masala Shop",
-  "description": "Shahsawar Masala Shop Ismaila - Kajoor, Kishmish, Mong Pali, Pansar, Haldi, Mirch, Masala, Khata, Udhar, profit tracking - Offline PWA grams system",
+  "description": "Shahsawar Masala Shop Shewa - Kajoor, Kishmish, Mong Pali, Pansar, Haldi, Mirch, Masala, Khata, Udhar, profit tracking - Offline PWA grams system",
   "start_url": "/login?utm_source=pwa",
   "scope": "/",
   "display": "standalone",

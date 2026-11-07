@@ -80,7 +80,7 @@ export default function HomePage() {
             <br />
             <span className="text-[#b45309]">Masala Shop</span>
           </h1>
-          <p className="text-gray-600 text-[12px] mt-2 font-bold">شہسوار مصالحہ شاپ • Ismaila Swabi</p>
+          <p className="text-gray-600 text-[12px] mt-2 font-bold">شہسوار مصالحہ شاپ • Shewa Swabi</p>
           <p className="text-gray-500 text-[12px] mt-1 font-medium">Kajoor • Kishmish • Mong Pali • Pansar • Haldi • Mirch</p>
           <p className="text-gray-400 text-[11px] mt-1">Fast billing by grams • Stock • Profit • Udhar Khata • Offline-ready</p>
 
@@ -108,13 +108,13 @@ export default function HomePage() {
           </Link>
           <Link href="/dashboard/products" className="bg-white border p-3.5 rounded-[18px] shadow-sm hover:shadow-md transition">
             <p className="font-bold text-[13px] mt-1">📦 Masala Stock</p>
-            <p className="text-[11px] text-gray-400 mt-1">All masala • Kg/Gram • Price • Ismaila</p>
+            <p className="text-[11px] text-gray-400 mt-1">All masala • Kg/Gram • Price • Shewa</p>
           </Link>
         </div>
       </div>
 
       <div className="text-center pb-4 text-[10px] text-gray-400">
-        Shahsawar Masala © {new Date().getFullYear()} • شہسوار مصالحہ شاپ • Ismaila • Grams System • Offline V1
+        Shahsawar Masala © {new Date().getFullYear()} • شہسوار مصالحہ شاپ • Shewa • Grams System • Offline V1
       </div>
     </div>
   );

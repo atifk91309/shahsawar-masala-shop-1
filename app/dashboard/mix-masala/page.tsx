@@ -202,7 +202,7 @@ export default function MixMasalaPage() {
   return (
     <div className="min-h-dvh bg-gray-50">
       <div className="max-w-120 md:max-w-6xl mx-auto px-2.5 md:px-6 py-2.5 md:py-6 space-y-3">
-        <h1 className="text-[13px] md:text-[20px] font-bold leading-tight">Shahsawar Mix Masala - Salan / Garam - Ismaila</h1>
+        <h1 className="text-[13px] md:text-[20px] font-bold leading-tight">Shahsawar Mix Masala - Salan / Garam - Shewa</h1>
 
         <div className="bg-white p-2.5 md:p-4 rounded-xl shadow-sm border space-y-2.5">
           <div className="flex gap-1.5 overflow-x-auto pb-1">

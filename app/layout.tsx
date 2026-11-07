@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | Shahsawar Masala",
   },
   description:
-    "Shahsawar Masala Shop Ismaila Swabi - Kajoor, Kishmish, Mong Pali, Pansar, Haldi, Mirch, Masala. Fast billing by grams, stock, profit, Udhar Khata, Wusool. Offline-ready PWA grams system.",
+    "Shahsawar Masala Shop Shewa Swabi - Kajoor, Kishmish, Mong Pali, Pansar, Haldi, Mirch, Masala. Fast billing by grams, stock, profit, Udhar Khata, Wusool. Offline-ready PWA grams system.",
   applicationName: "Shahsawar Masala Shop",
   manifest: "/manifest.json",
   appleWebApp: {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     shortcut: ["/icon-circle-180.png"],
   },
   openGraph: {
-    title: "Shahsawar Masala Shop - شہسوار مصالحہ شاپ - Ismaila",
+    title: "Shahsawar Masala Shop - شہسوار مصالحہ شاپ - Shewa",
     description: "Kajoor • Kishmish • Pansar • Mong Pali • Haldi • Mirch • Grams billing • Offline Ready",
     type: "website",
     images: ["/icon-circle-512.png"],

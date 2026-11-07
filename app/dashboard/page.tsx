@@ -144,7 +144,7 @@ export default function MasalaDashboard(){
       {reports && reports.khata.totalUdhar>0 && <div className="mb-3 bg-red-50 border border-red-200 text-red-800 text-[12px] p-2.5 rounded-xl flex justify-between"><span>📒 Total Udhar: Rs.{fmt(reports.khata.totalUdhar)} • {reports.khata.customers} customers</span><Link href="/khata" className="bg-red-600 text-white px-3 py-1 rounded-lg text-[11px]">Khata</Link></div>}
 
       <h1 className="text-[20px] font-bold">🌶️ Shahsawar Masala Dashboard</h1>
-      <p className="text-[11px] text-gray-500 mb-4">{new Date().toLocaleDateString()} • {isOffline?"Offline Mode":"Online"} • Year {new Date().getFullYear()} • Ismaila</p>
+      <p className="text-[11px] text-gray-500 mb-4">{new Date().toLocaleDateString()} • {isOffline?"Offline Mode":"Online"} • Year {new Date().getFullYear()} • Shewa</p>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 mb-3">
         <div className="bg-white p-4 rounded-xl border"><p className="text-[10px] text-gray-400">Today Sale</p><p className="text-[18px] font-bold">Rs.{fmt(reports?.today.total||0)}</p><p className="text-[10px] text-green-600">Profit Rs.{fmt(reports?.today.profit||0)} • {reports?.today.count||0} sales</p></div>
@@ -156,7 +156,7 @@ export default function MasalaDashboard(){
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 mb-4">
         <div className="bg-green-50 border border-green-200 p-4 rounded-xl"><p className="text-[10px] text-green-700 font-bold">Yearly Profit</p><p className="text-[18px] font-bold text-green-700">Rs.{fmt(yearProfit)}</p><p className="text-[10px]">This year</p></div>
         <div className="bg-red-50 border border-red-200 p-4 rounded-xl"><p className="text-[10px] text-red-700 font-bold">Yearly Loss</p><p className="text-[18px] font-bold text-red-700">Rs.{fmt(yearLoss)}</p><p className="text-[10px]">Return / damage</p></div>
-        <div className="bg-orange-50 border border-orange-200 p-4 rounded-xl"><p className="text-[10px] text-orange-700 font-bold">Total Udhar Khata</p><p className="text-[18px] font-bold">Rs.{fmt(reports?.khata.totalUdhar||0)}</p><p className="text-[10px]">{reports?.khata.customers||0} customers • Ismaila</p></div>
+        <div className="bg-orange-50 border border-orange-200 p-4 rounded-xl"><p className="text-[10px] text-orange-700 font-bold">Total Udhar Khata</p><p className="text-[18px] font-bold">Rs.{fmt(reports?.khata.totalUdhar||0)}</p><p className="text-[10px]">{reports?.khata.customers||0} customers • Shewa</p></div>
         <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-xl"><p className="text-[10px] text-yellow-800 font-bold">Low Stock Alert (≤500g)</p><p className="text-[18px] font-bold">{reports?.stock.lowCount||0} Items</p><p className="text-[10px]">Buy Rs.{fmt(reports?.stock.lowValue||0)} • Sell Rs.{fmt(reports?.stock.lowValueSell||0)}</p></div>
       </div>
 

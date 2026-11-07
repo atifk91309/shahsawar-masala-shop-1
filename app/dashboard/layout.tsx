@@ -61,7 +61,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
       <aside className={`w-64 bg-zinc-900 text-white p-5 flex flex-col z-40 fixed md:sticky top-0 left-0 h-dvh shrink-0 transition-transform ${open? "translate-x-0":"-translate-x-full md:translate-x-0"}`}>
         <div className="md:hidden h-14 shrink-0" />
-        <div className="mb-6"><h2 className="font-bold text-[16px]">🌶️ Shahsawar Masala</h2><p className="text-[10px] text-zinc-400">Kajoor • Kishmish • Pansar • Masala • Ismaila</p></div>
+        <div className="mb-6"><h2 className="font-bold text-[16px]">🌶️ Shahsawar Masala</h2><p className="text-[10px] text-zinc-400">Kajoor • Kishmish • Pansar • Masala • Shewa</p></div>
 
         {pendingCount>0 && <div className="mb-4 bg-zinc-800 text-[11px] p-2 rounded-lg text-center">{pendingCount} pending sync {isOffline? "• offline":""}</div>}
 
@@ -83,7 +83,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           >
             🚪 Logout
           </button>
-          <div className="mt-3 text-[10px] text-zinc-500 text-center">{isOnline? "🟢 Online":"🟡 Offline"} • Shahsawar Masala • Ismaila</div>
+          <div className="mt-3 text-[10px] text-zinc-500 text-center">{isOnline? "🟢 Online":"🟡 Offline"} • Shahsawar Masala • Shewa</div>
         </div>
       </aside>
 
