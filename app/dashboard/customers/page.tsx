@@ -154,7 +154,7 @@ export default function CustomersPage() {
     <div className="p-2 sm:p-3 md:p-4 max-w-2xl mx-auto min-h-screen bg-gray-50">
       <div className="bg-white rounded-xl p-3 mb-2 flex justify-between items-center shadow-sm border">
         <div className="min-w-0">
-          <h1 className="font-bold text-[14px] leading-tight truncate">📒 Asad Store Khata</h1>
+          <h1 className="font-bold text-[14px] leading-tight truncate">📒 Masala Khata</h1>
           <p className="text-[10px] text-gray-500">{pendingCount} pending • {paidCount} paid • Total customers {customers.length}</p>
         </div>
         <span className="font-bold text-red-600 text-[13px] whitespace-nowrap ml-2">Rs {fmt(totalUdhar)}</span>
